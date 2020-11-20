@@ -33,11 +33,11 @@
 <img src="harrastus.jpg" widh="100"> 
 </table>
 
-<a href="url">link https://papunet.net/taxonomy/term/544.fi</a>
+<a href="https://papunet.net/taxonomy/term/544.fi">link https://papunet.net/taxonomy/term/544.fi</a>
 
 
 
-<h2>SääAsema</h4>
+<h2>lähetä vaikka viestiä</h4>
 <a href="saaAsema.html">sääAsema</a>
 <table summary="Taulukon koosteteksti">
 <caption>sääAsema</caption>
@@ -45,4 +45,17 @@
 <CAPTION VALIGN=TOP  ALIGN=CENTER>sääasema</CAPTION>
 <TR><TH> valosuus </TH><TH> lämpötila </TH><TH> ilmankosteus </TH>
 <TR><TD> sopiva </TD><TD>sopiva </TD><TD> sopiva </TD>
-</TABLE>
+
+<FORM METHOD=POST ACTION="mailto:tarmo.tyolainen@ihmeosoite.fi"  
+ENCTYPE="application/x-www-form-urlencoded"> 
+Viesti:
+<TEXTAREA NAME="viesti" ROWS=10 COLS=50></TEXTAREA> 
+Nimi: 
+<input type="text" name="nimi" size="60" maxlength="200">
+Osoite:
+<input type="text" name="vastausosoite" size="60" maxlength="200"> 
+Sähköposti:
+<input type="text" name="email" size="60" maxlength="200">
+<input type=submit name=send value="Lähetä"> 
+<input type="reset" name="tyhjenna" value="Tyhjennä"> 
+</form>
