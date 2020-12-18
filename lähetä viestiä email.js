@@ -21,7 +21,7 @@ console. log("valmis, yhteys toimii");
 };
 var data = JSON.stringly({
 "Emailmsg" :"Tähän tulee postin sisältö",//kirjottaa sisällän
-"EmailAddress": "mira.vorne@salpaus.fi",//viestinn kirjottajan email
+"EmailAddress": "opettaja@salpaus.fi",//viestinn kirjottajan email
 "EmailTo":"nippis2@luukku.com",//kenelle tulee viesti eli minä
 "EmailName": "Teppo Tyyppi"//nimi kenttä
 });

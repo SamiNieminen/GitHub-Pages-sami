@@ -1,15 +1,19 @@
-html:before
+
+/*}
 {
-background-image: url("https://newevolutiondesigns.com/images/freebies/winter-wallpaper-6.jpg");
+background-image: url
 }
  {
   width:100%;
   border-radius: 25px;
-}
+}*/
 table, th, td {
-  border: 1px solid #white;;
+  border: 0px solid white;
   border-collapse: collapse;
   border-radius: 25px;
+}
+.tietoja{
+  color:white;
 }
 th, td {
   padding: 15px;
@@ -25,27 +29,33 @@ th, td {
   background-color: black;
   color: white;
 }
-{
+/*{
 background-color:#3de0e0;
-}
+}*/
 article {
 border-radius:1rem;
 }
-html:before
+/*html:before
 {
-background-image: url("https://newevolutiondesigns.com/images/freebies/winter-wallpaper-6.jpg");
-}
+
+}*/
 body{
-   background-color: rgba(121, 176, 238, 0.904);
-  padding::10px
+   background-color: rgba(83, 231, 103, 0.904);
   border-right-style:double;
   border-left-style:dashed;
   border-top-style:dotted;
   border-bottom-style:solid;
+  background-image: url(Planet-Earth-Background-Wallpaper-43993.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  font-family: Montserrat;
+  
 }
 h1{
   font-family: Arial, Helvetica, sans-serif;
-  color:#FFFFFF;
+  color:#FFFFFf;
 }
 sisalto1 h1{
   font-family: Tahoma, Geneva, Verdana, sans-serif;
@@ -85,7 +95,7 @@ border-radius: 20px;
     border:none;
   }
   .nappula:hover{
-    background-color: royalblue;
+    background-color: rgba(25, 218, 83, 0.808);
     color: white;
   }
   .laatikko{
@@ -105,10 +115,11 @@ border-radius: 20px;
 ul{
 list-style-type:none;
 }
-ul li{
+/*ul li{
   padding: 5px
  background-color white:
  margin:5px 0px;
+*/
 div.palsta {
     border : 1px solid red;
     overflow : hidden;
@@ -120,19 +131,20 @@ div.palsta div {
     overflow : hidden;
     width : 49.5%;
 }
-
+/*
 div.palsta div.rivi {
     clear : both;
+    /*
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-body {
-  font-family: "Montserrat";
+body{
+  font-family: Montserrat;
 }
 section {
-  height: 100vh;
+  height: 100px;
   width: 100%;
   background-color: aliceblue;
   display: flex;
@@ -166,8 +178,8 @@ section {
 
 textarea {
   resize: vertical;
-}
-button[type="submit"] {
+}*/
+input[type="submit"] {
   width: 100%;
   border: none;
   outline: none;
@@ -175,7 +187,7 @@ button[type="submit"] {
   font-size: 24px;
   border-radius: 8px;
   font-family: "Montserrat";
-  color: rgb(27, 166, 247);
+  color: rgb(84, 236, 70);
   text-align: center;
   cursor: pointer;
   margin-top: 10px;
@@ -214,5 +226,21 @@ button[type="submit"]:hover {
     opacity: 0;
     pointer-events: none;
   }
-}
-}
+  p{
+    color: white;
+  }
+  h1{
+    color: white;
+  }
+  h2{
+    color: white;
+  }
+  h3{
+    color: white(0,0,255);
+  }
+  a{
+    color: white;
+  }
+  th{
+    color: white;
+  }
